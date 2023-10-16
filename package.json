@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "compile": "npx hardhat compile",
-    "fallback": "npx hardhat test tests/Fallback.ts",
-    "coin-flip": "npx hardhat test tests/CoinFlip.ts"
+    "fallback": "npx hardhat test tests/coin-flip.test.ts",
+    "coin-flip": "npx hardhat test tests/coin-flip.test.ts"
   },
   "dependencies": {
     "chai": "^4.3.6",
