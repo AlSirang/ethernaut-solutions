@@ -4,7 +4,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "fallback": "npx hardhat test tests/Fallback.ts"
+    "compile": "npx hardhat compile",
+    "fallback": "npx hardhat test tests/Fallback.ts",
+    "coin-flip": "npx hardhat test tests/CoinFlip.ts"
   },
   "dependencies": {
     "chai": "^4.3.6",
