@@ -3,6 +3,9 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "fallback": "npx hardhat test tests/Fallback.ts"
+  },
   "dependencies": {
     "chai": "^4.3.6",
     "hardhat": "^2.9.3"
