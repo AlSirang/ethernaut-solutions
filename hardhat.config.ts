@@ -7,8 +7,16 @@ import "@typechain/hardhat";
 import "hardhat-gas-reporter";
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.7",
-
+  solidity: {
+    compilers: [
+      {
+        version: "0.6.7",
+      },
+      {
+        version: "0.8.7",
+      },
+    ],
+  },
   paths: { tests: "tests" },
 };
 
