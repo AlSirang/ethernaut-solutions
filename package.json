@@ -10,7 +10,8 @@
     "telephone": "npx hardhat test tests/telephone.test.ts",
     "token": "npx hardhat test tests/token.test.ts",
     "delegation": "npx hardhat test tests/delegation.test.ts",
-    "force": "npx hardhat test tests/force.test.ts"
+    "force": "npx hardhat test tests/force.test.ts",
+    "vault": "npx hardhat test tests/vault.test.ts"
   },
   "dependencies": {
     "chai": "^4.3.6",
