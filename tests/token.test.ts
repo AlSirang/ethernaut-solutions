@@ -3,7 +3,7 @@ import { ethers } from "hardhat";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { Token } from "../typechain";
 
-describe("Telephone Attack", function () {
+describe("Overflow Attack", function () {
   let token: Token;
   let attacker: SignerWithAddress;
   const INITIAL_BALANCE = ethers.utils.parseEther("20");
