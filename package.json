@@ -6,7 +6,8 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "fallback": "npx hardhat test tests/coin-flip.test.ts",
-    "coin-flip": "npx hardhat test tests/coin-flip.test.ts"
+    "coin-flip": "npx hardhat test tests/coin-flip.test.ts",
+    "telephone": "npx hardhat test tests/telephone.test.ts"
   },
   "dependencies": {
     "chai": "^4.3.6",
