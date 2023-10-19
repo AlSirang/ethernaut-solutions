@@ -15,7 +15,8 @@
     "king": "npx hardhat test tests/king.test.ts",
     "reentrance": "npx hardhat test tests/reentrance.test.ts",
     "elevator": "npx hardhat test tests/building.test.ts",
-    "privacy": "npx hardhat test tests/privacy.test.ts "
+    "privacy": "npx hardhat test tests/privacy.test.ts",
+    "gatekeeper-1": "npx hardhat test tests/gatekeeperOne.test.ts"
   },
   "dependencies": {
     "chai": "^4.3.6",
